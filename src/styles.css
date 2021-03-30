@@ -3,28 +3,61 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     top: 0;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
 }
 
+.navlink:visited {
+    text-decoration: none;
+    color: #95ACB1;
+}
+
 #sidebar {
     width: 200px;
     height: 100%;
-    background: #95ACB1;
+    background: transparent;
     opacity: 80%;
-    position: absolute;
+    position: fixed;
+    right: -300px;
+    transition: .4s;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #sidebar ul li {
     list-style-type: none;
+    padding: 20% 0;
+    color: #95ACB1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 245%;
+    font-weight: bolder;
 }
 
 #sidebar ul a {
     text-decoration: none;
+    color: #95ACB1;
 }
 
 img {
     width: 100%;
+}
+
+.portfolio_item {
+    width: 30%;
+    left: 40%;
+}
+
+#contact {
+    object-fit: fill;
+}
+
+@media screen and (max-width: 720px) {
+
 }
