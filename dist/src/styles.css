@@ -71,6 +71,16 @@ img {
     padding: 5%;
 }
 
+.portfolio_item figcaption h4 {
+    color: #95ACB1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.builtWith {
+    color: #95ACB1;
+    font-family: 'Raleway', sans-serif;
+}
+
 #contact {
     object-fit: fill;
     margin: 50% 0;
@@ -205,6 +215,16 @@ img {
         padding: 5%;
     }
     
+    .portfolio_item figcaption h4 {
+        color: #95ACB1;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .builtWith {
+        color: #95ACB1;
+        font-family: 'Raleway', sans-serif;
+    }
+
     #contact img {
         visibility: hidden;
     }
@@ -345,7 +365,17 @@ img {
         font-size: 200%;
         padding: 5%;
     }
-    
+
+    .portfolio_item figcaption h4 {
+        color: #95ACB1;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .builtWith {
+        color: #95ACB1;
+        font-family: 'Raleway', sans-serif;
+    }
+
     #contact img {
         visibility: hidden;
     }
@@ -431,7 +461,7 @@ img {
     }
     
     #sidebar {
-        width: 100px;
+        width: 80px;
         height: 100%;
         background: transparent;
         opacity: 80%;
@@ -445,10 +475,10 @@ img {
     
     #sidebar ul li {
         list-style-type: none;
-        padding: 20% 0;
+        padding: 25% 0;
         color: #95ACB1;
         font-family: 'Raleway', sans-serif;
-        font-size: 110%;
+        font-size: 90%;
         font-weight: bolder;
         letter-spacing: 2px;
     }
@@ -459,7 +489,7 @@ img {
     }
 
     .wrapper {
-        margin-right: 25%;
+        margin-right: 27%;
     }
     
     img {
@@ -485,6 +515,16 @@ img {
         font-size: 200%;
         padding: 5%;
     }
+
+    .portfolio_item figcaption h4 {
+        color: #95ACB1;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .builtWith {
+        color: #95ACB1;
+        font-family: 'Raleway', sans-serif;
+    }
     
     #contact img {
         visibility: hidden;
@@ -492,7 +532,7 @@ img {
 
     #contact {
         object-fit: fill;
-        margin: 100% 0;
+        margin: 110% 0;
     }
     
     #contact button {
@@ -527,15 +567,16 @@ img {
     }
     
     #about h2 {
-        margin-top: 160%;
+        margin-top: 180%;
         margin-bottom: 30%;
         color: #C8A97C;
         text-align: center;
     }
     
     #about p {
-        font-size: larger;
+        font-size: small;
         margin-top: 15%;
+        text-align: center;
     }
     
     #work {
